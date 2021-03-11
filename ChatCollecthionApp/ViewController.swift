@@ -33,7 +33,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         Users.append(User(name: "りか", age: "20歳", imageName: "ダウンロード-1", city: "東京", comment: "こんにちは！💑こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！"))
         Users.append(User(name: "のん", age: "18歳", imageName: "images", city: "東京", comment: "よろしく！よろしく！💑よろしく！よろしく！よろしく！よろしく！よろしく！よろしく！よろしく！"))
         Users.append(User(name: "アリー", age: "18歳", imageName: "ショート", city: "東京", comment: "こんばんは！💑こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！"))
-        Users.append(User(name: "りか", age: "22歳", imageName: "笑顔", city: "埼玉", comment: "おはよう！💑おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！"))
+        Users.append(User(name: "りか", age: "22歳", imageName: "笑顔", city: "埼玉", comment: "おはよう！💑おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！!"))
 
     }
     
