@@ -27,13 +27,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     func loadData() {
-        Users.append(User(name: "のん", age: "21歳", imageName: "0913", city: "東京", comment: "こんにちは！"))
-        Users.append(User(name: "のんたん", age: "20歳", imageName: "09131", city: "京都", comment: "こんばんは！"))
-        Users.append(User(name: "かすみん", age: "30歳", imageName: "good-news", city: "神奈川", comment: "おはよう！"))
-        Users.append(User(name: "りか", age: "20歳", imageName: "ダウンロード", city: "東京", comment: "こんにちは！"))
-        Users.append(User(name: "のん", age: "18歳", imageName: "のん", city: "東京", comment: "よろしく！"))
-        Users.append(User(name: "ぶた", age: "18歳", imageName: "ぶた", city: "東京", comment: "こんばんは！"))
-        Users.append(User(name: "りか", age: "22歳", imageName: "りか", city: "埼玉", comment: "おはよう！"))
+        Users.append(User(name: "のん", age: "21歳", imageName: "0913", city: "東京", comment: "こんにちは！💑こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！"))
+        Users.append(User(name: "のんたん", age: "20歳", imageName: "09131", city: "京都", comment: "こんばんは！💑こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！"))
+        Users.append(User(name: "かすみん", age: "30歳", imageName: "good-news", city: "神奈川", comment: "おはよう！💑おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！"))
+        Users.append(User(name: "りか", age: "20歳", imageName: "ダウンロード-1", city: "東京", comment: "こんにちは！💑こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！"))
+        Users.append(User(name: "のん", age: "18歳", imageName: "images", city: "東京", comment: "よろしく！よろしく！💑よろしく！よろしく！よろしく！よろしく！よろしく！よろしく！よろしく！"))
+        Users.append(User(name: "アリー", age: "18歳", imageName: "ショート", city: "東京", comment: "こんばんは！💑こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！こんばんは！"))
+        Users.append(User(name: "りか", age: "22歳", imageName: "笑顔", city: "埼玉", comment: "おはよう！💑おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！おはよう！"))
 
     }
     
