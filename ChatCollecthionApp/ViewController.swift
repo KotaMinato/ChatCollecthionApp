@@ -8,16 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
-    
-    
+   
     @IBOutlet weak var mycollectionView: UICollectionView!
     
-    
-   
-//    let photos = ["ダウンロード","0913","09131","good-news","のん","りか","ぶた"]
     var Users : [User] = []
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,36 +34,29 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
             return Users.count // 表示するセルの数
-          
         }
             
-            func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-               
+        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
                 guard let cell = mycollectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? userCollectionViewCell else {
                             fatalError("Dequeue failed: Cell.")
-                }
+           }
 
-                     cell.useNameLabel.text = Users[indexPath.row].name
-                     cell.userAgeLabel.text = Users[indexPath.row].age
-                     cell.userImageLabel.image = UIImage(named: Users[indexPath.row].imageName)
-                     cell.userCityLabel.text = Users[indexPath.row].city
-                     cell.userCommentLabel.text = Users[indexPath.row].comment
-                     
-                return cell
+           cell.useNameLabel.text = Users[indexPath.row].name
+           cell.userAgeLabel.text = Users[indexPath.row].age
+           cell.userImageLabel.image = UIImage(named: Users[indexPath.row].imageName)
+           cell.userCityLabel.text = Users[indexPath.row].city
+           cell.userCommentLabel.text = Users[indexPath.row].comment
+           return cell
 
-
-                
-
-
-            }
+        }
    
 
        func numberOfSections(in collectionView: UICollectionView) -> Int {
              return 1
          
-    }
+       }
            
 
 
 
-}
+ }
