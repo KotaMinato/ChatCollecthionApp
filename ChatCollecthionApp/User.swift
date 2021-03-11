@@ -21,4 +21,8 @@ class User {
         self.city = city
         self.comment = comment
     }
+    
+   
+   
+    
 }

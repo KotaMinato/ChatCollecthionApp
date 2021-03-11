@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
     
     
-   
     @IBOutlet weak var mycollectionView: UICollectionView!
     
     
@@ -55,7 +54,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                      cell.userImageLabel.image = UIImage(named: Users[indexPath.row].imageName)
                      cell.userCityLabel.text = Users[indexPath.row].city
                      cell.userCommentLabel.text = Users[indexPath.row].comment
-                   
+                     
                 return cell
 
 
